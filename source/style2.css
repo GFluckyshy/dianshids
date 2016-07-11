@@ -35,7 +35,7 @@ div{zoom:1;}
 .violet{color: #990099;}
 .mar_auto{margin: 0 auto;}
 .mar_05{margin-top: 5px;}
-.mar_10{margin-top: 10px;}
+.mar_10{margin-top: 10px;height:47px;width: 201px;}
 .mar_15{margin-top: 15px;}
 .mar_20{margin-top: 20px;}
 .mar_25{margin-top: 25px;}
@@ -94,11 +94,11 @@ body{background: 000;}
 
 .wid_956{width: 956px;margin: 0 auto;}
 .back_c1{background: url(back_c2.jpg) center 0 no-repeat;height: 2070px;padding: 66px 0 0;}
-.title_c1{height: 46px;line-height: 46px;text-align: center;font-size: 22px;font-family: 微软雅黑,Tahoma,Verdana,arial,Hiragino Sans GB,arial,Hiragino Sans GB,sans-serif; position: relative;}
+.title_c1{width:100%;height: 46px;line-height: 46px;text-align: center;font-size: 22px;font-family: 微软雅黑,Tahoma,Verdana,arial,Hiragino Sans GB,arial,Hiragino Sans GB,sans-serif; position: relative;}
 .tlc1_01{position: absolute;left: 50%;margin-left: -104px;top: 4px;}
 .tlc1_02{position: absolute;left: 50%;margin-left: 57px;top: 14px;}
-.main_wyfw dl{ font-size:13px;text-align: center;font-family: 微软雅黑,Tahoma,Verdana,arial,Hiragino Sans GB,arial,Hiragino Sans GB,sans-serif; }
-.main_wyfw dt{font-size:13px;line-height: 30px;font-size: 16px;padding: 10px 0;}
+.main_wyfw dl{ font-size:20px;text-align: center;font-family: 微软雅黑,Tahoma,Verdana,arial,Hiragino Sans GB,arial,Hiragino Sans GB,sans-serif; }
+.main_wyfw dt{font-size:20px;line-height: 30px;font-size: 16px;padding: 10px 0;}
 .main_menu{width: 956px;overflow: hidden;}
 .main_menu ul{width: 1000px;overflow: hidden;padding: 65px 0 0;}
 .main_menu li{width: 223px;height: 431px;background: url(back_c4.png);border: #2167e3 solid 1px;float: left;display: inline;margin-right: 18px;position: relative;}
