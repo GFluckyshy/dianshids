@@ -579,6 +579,7 @@ jQuery.extend(jQuery.easing, { def: "easeOutQuad", swing: function(e, f, a, i, g
 function Cur(e) {
     var t = document.getElementById("nav").getElementsByTagName("li");
     for (var n = 0; n <= t.length - 1; n++) t[n].getElementsByTagName("a")[0].className = "";
-    t[e].getElementsByTagName("a")[0].className = "nav_z" }
+    // t[e].getElementsByTagName("a")[0].className = "nav_z" 
+}
 
 $(".jc_fot").css("top", $("html,body").height() - 50 + "px");
