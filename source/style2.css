@@ -22,7 +22,8 @@ h1, h2, h3, h4, h5, h6, button, input, select, textarea {
 }
 
 body {
-    background-image: url('beijing.png');
+    margin: 0px;
+    background-image: url('beijing.jpg');
     background-attachment: fixed;
     background-size: 100% 100%;
 }
@@ -257,6 +258,7 @@ div {
     margin: 0px;
     height: 15px;
 }
+}
 
 .nav {
     width: 660px;
@@ -272,12 +274,12 @@ div {
     float: right;
     line-height: 30px;
     position: relative;
-    padding: 0 15px;
+    padding: 15px 15px;
     z-index: 9999999;
 }
 
 .nav a {
-    font-size: 12px;
+    font-size: 15px;
     font-family: 微软雅黑, Tahoma, Verdana, arial, Hiragino Sans GB, arial, Hiragino Sans GB, sans-serif;
     color: #8a8a8a;
     float: left;
@@ -342,6 +344,7 @@ div {
     width: 30px;
     height: 30px;
     position: relative;
+
     margin: 40px 0 0;
 }
 
@@ -405,9 +408,20 @@ div {
 .fx_04:hover {
     background: url(icon_36.png) 0 -90px no-repeat #333;
 }
+.main_hzhb div{
+    float: left;
+    margin: 0px;
+    padding: 0px;
 
+}
+
+.banner_big img{
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+    top: 0;}
 .banner, .banner_big {
-    width: 100%;
     height: 669px;
     overflow: hidden;
     position: relative;
@@ -415,6 +429,8 @@ div {
 
 .banner_big ul {
     height: 669px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .banner_big li {
@@ -424,19 +440,10 @@ div {
 }
 
 .banner_big a {
-    width: 100%;
     height: 669px;
     display: block;
     overflow: hidden;
     position: relative;
-}
-
-.banner_big img {
-    display: block;
-    position: absolute;
-    left: 0%;
-   
-    top: 0;
 }
 
 
@@ -447,6 +454,7 @@ div {
 */
 
 .wid_956 {
+    
     width: 956px;
     margin: 0 auto;
 }
@@ -564,7 +572,7 @@ div {
 
 .main_pro {
     position: relative;
-    padding: 15px 0 130px;
+    padding: 15px 0 10px;
 }
 
 .main_probk {
@@ -636,7 +644,7 @@ div {
 }
 
 .main_hzhb {
-    width: 956px;
+    width: 995px;
     margin: 0 auto;
     position: relative;
 }
@@ -647,7 +655,7 @@ div {
     font-size: 22px;
     font-family: 微软雅黑, Tahoma, Verdana, arial, Hiragino Sans GB, arial, Hiragino Sans GB, sans-serif;
     text-align: center;
-    background: url(btn_c01.png) center no-repeat;
+    background: url(yuanicon.png) center no-repeat;
     width: 956px;
     margin-top: -70px;
     position: relative;
@@ -702,17 +710,25 @@ div {
     font-size: 13px;
     font-family: 微软雅黑, Tahoma, Verdana, arial, Hiragino Sans GB, arial, Hiragino Sans GB, sans-serif;
 }
+.fir_dd{
+    width: 110px;
+}
 
 .fot_lt .fir_dd {
     padding: 10px 0 0;
+
 }
 
 .fot_lt dd a {
     color: #95a5c6;
 }
+.fot_copy{
+    height: 134px;
+}
 
 .fot_fx {
     height: 33px;
+    margin-bottom: 0px;
 }
 
 .fot_fx li {
