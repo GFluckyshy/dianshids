@@ -284,26 +284,22 @@ div {
     color: #8a8a8a;
     float: left;
 }
-
+.nav .nav_z i,.nav a:hover i {
+    display: block;
+}
+.nav i {
+    background-image: url(icon_c03.png);
+    position: absolute;
+    width: 15px;
+    height: 13px;
+    display: none;
+    left: -5px;
+    top: 9px;
+}
 .nav a:hover, .nav .nav_z, .nav .nav_zz {
     color: #fff;
     text-decoration: none;
 }
-
-.nav i {
-    width: 15px;
-    height: 13px;
-    display: none;
-    background-image: url(icon_c03.png);
-    position: absolute;
-    left: -5px;
-    top: 9px;
-}
-
-.nav .nav_z i, .nav a:hover i {
-    display: block;
-}
-
 #header .sh #nav_fx {
     display: block;
 }
@@ -321,7 +317,8 @@ div {
     text-align: left;
     background: url(back_54.png);
     margin-left: -50px;
-    padding: 10px 0;
+    padding: 20px 0;
+    margin-top: 25px;
     display: none;
 }
 
@@ -372,7 +369,6 @@ div {
     height: 30px;
     display: block;
 }
-
 .nav_fx a:hover {
     text-decoration: none;
 }
